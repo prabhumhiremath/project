@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanExpress.PushOnce.AutomaticUpdateManager", "AmericanExpress.AutomaticUpdateManager\AmericanExpress.PushOnce.AutomaticUpdateManager.csproj", "{7019AECE-A4B9-44FC-AD3E-BABFA39302CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanExpress.PushOnce.AutomaticUpdater", "AmericanExpress.BitsAutomaticUpdater\AmericanExpress.PushOnce.AutomaticUpdater.csproj", "{B82009A1-B564-4E41-AF85-3BA1D0CFA3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericanExpress.PushOnce.Loader", "AmericanExpress.PushOnce.Loader\AmericanExpress.PushOnce.Loader.csproj", "{478B4BF1-90C0-42F8-908F-59B40FA4C8E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7019AECE-A4B9-44FC-AD3E-BABFA39302CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7019AECE-A4B9-44FC-AD3E-BABFA39302CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7019AECE-A4B9-44FC-AD3E-BABFA39302CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7019AECE-A4B9-44FC-AD3E-BABFA39302CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82009A1-B564-4E41-AF85-3BA1D0CFA3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82009A1-B564-4E41-AF85-3BA1D0CFA3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82009A1-B564-4E41-AF85-3BA1D0CFA3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82009A1-B564-4E41-AF85-3BA1D0CFA3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478B4BF1-90C0-42F8-908F-59B40FA4C8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478B4BF1-90C0-42F8-908F-59B40FA4C8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478B4BF1-90C0-42F8-908F-59B40FA4C8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478B4BF1-90C0-42F8-908F-59B40FA4C8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
